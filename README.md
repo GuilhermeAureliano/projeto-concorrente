@@ -36,13 +36,18 @@ chmod +x create_atomic.sh
 
 ## Criação dos gráficos
 
-### 5° Passo: Criar o gráfico de linhas
+### 1° Passo: Baixar bibliotecas necessárias para manipulação e visualização dos dados
+```
+pip install pandas matplotlib
+```
+
+### 2° Passo: Criar o gráfico de linhas
 
 ```bash
 python3 linhas.py
 ```
 
-### 6° Passo: Criar o gráfico de barras
+### 3° Passo: Criar o gráfico de barras
 
 ```bash
 python3 barras.py
