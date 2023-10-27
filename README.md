@@ -38,7 +38,7 @@ chmod +x create_atomic.sh
 
 ### 1° Passo: Baixar bibliotecas necessárias para manipulação e visualização dos dados
 ```
-pip install pandas matplotlib
+pip install pandas matplotlib numpy
 ```
 
 ### 2° Passo: Criar o gráfico de linhas
